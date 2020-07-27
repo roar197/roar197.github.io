@@ -1,0 +1,48 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+	color: white;
+}
+
+h1{
+	margin: 10px;
+	background-color: #2980B9;
+	text-align: center;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif ;
+}
+
+h2{
+	background-color: #F5B041;
+	padding: 5px;
+	margin: 5px; 
+	text-align: right;
+}
+
+.column{
+	float: left;
+  width: 33%;
+   padding: 10px;
+  }
+
+@media (max-width: 991px) and (min-width: 768px){
+	.column {
+		float: left;
+		width:50%;
+		padding: 10px;
+	}
+	#c3 {
+		clear:both;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px){
+	.column {
+		float: left;
+		width:100%;
+		padding: 10px;
+	}
+}
